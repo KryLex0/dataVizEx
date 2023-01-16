@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Data Visualisation</title>
+</head>
+<body>
+    <center>
+        <div>
+            <h1>Requete 1 (Artifical Intelligence)</h1>
+            <p style="width: 50%;">
+                SELECT ?intelligence_artificielleLabel ?nature_de_l_élémentLabel ?plateformeLabel ?secteur_d_activitéLabel WHERE {
+                SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+                ?intelligence_artificielle wdt:P31 wd:Q11660.
+                OPTIONAL { ?intelligence_artificielle wdt:P31 ?nature_de_l_élément. }
+                OPTIONAL { ?intelligence_artificielle wdt:P400 ?plateforme. }
+                OPTIONAL { ?intelligence_artificielle wdt:P452 ?secteur_d_activité. }
+                }
+                LIMIT 100
+            </p>
+            <iframe style="width: 80vw; height: 50vh;"
+                src="https://query.wikidata.org/embed.html#SELECT%20%3Fintelligence_artificielleLabel%20%3Fnature_de_l_%C3%A9l%C3%A9mentLabel%20%3FplateformeLabel%20%3Fsecteur_d_activit%C3%A9Label%20WHERE%20%7B%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%2Cen%22.%20%7D%0A%20%20%3Fintelligence_artificielle%20wdt%3AP31%20wd%3AQ11660.%0A%20%20OPTIONAL%20%7B%20%3Fintelligence_artificielle%20wdt%3AP31%20%3Fnature_de_l_%C3%A9l%C3%A9ment.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fintelligence_artificielle%20wdt%3AP400%20%3Fplateforme.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fintelligence_artificielle%20wdt%3AP452%20%3Fsecteur_d_activit%C3%A9.%20%7D%0A%7D%0ALIMIT%20100"
+                referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups"></iframe>
+        </div>
+    
+        <div style="border:solid; width: 50%; height: 0.1%; margin-top: 2%; margin-bottom: 2%;"></div>
+
+        <div>
+            <h1>Requete 1 (Artifical Intelligence)</h1>
+            <p style="width: 50%;">
+                SELECT ?intelligence_artificielleLabel ?nature_de_l_élémentLabel ?plateformeLabel ?secteur_d_activitéLabel WHERE
+                {
+                SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+                ?intelligence_artificielle wdt:P31 wd:Q11660.
+                OPTIONAL { ?intelligence_artificielle wdt:P31 ?nature_de_l_élément. }
+                OPTIONAL { ?intelligence_artificielle wdt:P400 ?plateforme. }
+                OPTIONAL { ?intelligence_artificielle wdt:P452 ?secteur_d_activité. }
+                }
+                LIMIT 100
+            </p>
+            <iframe style="width: 80vw; height: 50vh;"
+                src="https://query.wikidata.org/embed.html#SELECT%20%3Fintelligence_artificielleLabel%20%3Fnature_de_l_%C3%A9l%C3%A9mentLabel%20%3FplateformeLabel%20%3Fsecteur_d_activit%C3%A9Label%20WHERE%20%7B%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%2Cen%22.%20%7D%0A%20%20%3Fintelligence_artificielle%20wdt%3AP31%20wd%3AQ11660.%0A%20%20OPTIONAL%20%7B%20%3Fintelligence_artificielle%20wdt%3AP31%20%3Fnature_de_l_%C3%A9l%C3%A9ment.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fintelligence_artificielle%20wdt%3AP400%20%3Fplateforme.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fintelligence_artificielle%20wdt%3AP452%20%3Fsecteur_d_activit%C3%A9.%20%7D%0A%7D%0ALIMIT%20100"
+                referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups"></iframe>
+        </div>
+
+    </center>
+
+
+        <!-- <center>
+            <div>
+                <h1>Requete 1</h1>
+                <p>
+                    SELECT ?university ?universityLabel WHERE {
+                    SERVICE wikibase:label {bd:serviceParam wikibase:language "[AUTO_LANGUAGE], en".}
+                    ?university wdt:P31 wd:Q3918
+                    }
+                    LIMIT 100
+                </p>
+                <iframe style="width: 80vw; height: 50vh; border: none;"
+                    src="https://query.wikidata.org/embed.html#SELECT%20%3Funiversity%20%3FuniversityLabel%20WHERE%20%7B%0A%20%20SERVICE%20wikibase%3Alabel%20%7Bbd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%2C%20en%22.%7D%0A%20%20%3Funiversity%20wdt%3AP31%20wd%3AQ3918%0A%7D%0ALIMIT%20100"
+                    referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups"></iframe>
+            </div>
+        </center> -->
+
+</body>
+</html>
