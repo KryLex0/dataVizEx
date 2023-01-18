@@ -1,0 +1,107 @@
+[
+   {
+      "Rank": 1,
+      "Genre": "Rap",
+      "Tracks": 248,
+      "Artist Name": "Drake",
+      "Lead Streams": 418
+   },
+   {
+      "Rank": 2,
+      "Genre": "Pop",
+      "Tracks": 189,
+      "Artist Name": "Ed Sheeran",
+      "Lead Streams": 311
+   },
+   {
+      "Rank": 3,
+      "Genre": "Pop",
+      "Tracks": 178,
+      "Artist Name": "Ariana Grande",
+      "Lead Streams": 273
+   },
+   {
+      "Rank": 4,
+      "Genre": "Rap",
+      "Tracks": 137,
+      "Artist Name": "Bad Bunny",
+      "Lead Streams": 263
+   },
+   {
+      "Rank": 5,
+      "Genre": "R\u0026B",
+      "Tracks": 146,
+      "Artist Name": "The Weeknd",
+      "Lead Streams": 261
+   },
+   {
+      "Rank": 6,
+      "Genre": "Rap",
+      "Tracks": 66,
+      "Artist Name": "Post Malone",
+      "Lead Streams": 255
+   },
+   {
+      "Rank": 7,
+      "Genre": "Pop",
+      "Tracks": 218,
+      "Artist Name": "Justin Bieber",
+      "Lead Streams": 254
+   },
+   {
+      "Rank": 8,
+      "Genre": "Rap",
+      "Tracks": 276,
+      "Artist Name": "Eminem",
+      "Lead Streams": 249
+   },
+   {
+      "Rank": 9,
+      "Genre": "Pop",
+      "Tracks": 287,
+      "Artist Name": "Taylor Swift",
+      "Lead Streams": 220
+   },
+   {
+      "Rank": 10,
+      "Genre": "Rap",
+      "Tracks": 225,
+      "Artist Name": "J Balvin",
+      "Lead Streams": 217
+   },
+   {
+      "Rank": 11,
+      "Genre": "K-Pop",
+      "Tracks": 249,
+      "Artist Name": "BTS",
+      "Lead Streams": 207
+   },
+   {
+      "Rank": 12,
+      "Genre": "Rap",
+      "Tracks": 229,
+      "Artist Name": "Kanye West",
+      "Lead Streams": 195
+   },
+   {
+      "Rank": 13,
+      "Genre": "Pop",
+      "Tracks": 62,
+      "Artist Name": "Billie Eilish",
+      "Lead Streams": 187
+   },
+   {
+      "Rank": 14,
+      "Genre": "R\u0026B",
+      "Tracks": 94,
+      "Artist Name": "Khalid",
+      "Lead Streams": 183
+   },
+   {
+      "Rank": 15,
+      "Genre": "Trap",
+      "Tracks": 202,
+      "Artist Name": "Ozuna",
+      "Lead Streams": 182
+   }
+]
