@@ -66,6 +66,12 @@
             transform: translateX(-100%);
             left: 100%;
         }
+                100% {
+                    -webkit-transform: translateX(0%);
+                    -ms-transform: translateX(0%);
+                    transform: translateX(0);
+                    left: 0;
+                }
 }
 
 @keyframes backgroundScroll {
@@ -75,4 +81,10 @@
             transform: translateX(-100%);
             left: 100%;
         }
+                100% {
+                    -webkit-transform: translateX(0%);
+                    -ms-transform: translateX(0%);
+                    transform: translateX(0);
+                    left: 0;
+                }
 }
